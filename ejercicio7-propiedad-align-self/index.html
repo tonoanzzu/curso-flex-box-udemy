@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        section {
+            width: 300px;
+            height: 200px;
+            border: 1px solid #000;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .caja1 {
+            background-color: blue;
+        }
+        
+        .caja2 {
+            background-color: green;
+        }
+        
+        .caja3 {
+            background-color: pink;
+            align-self: stretch;
+        }
+        /*Propiedad  
+           align-items: flex-start, sobreescribe o independiza el comportamiento de los hijos, lo pone al inicio del eje secundario del padre
+           align-items: flex-end,  sobreescribe o independiza el comportamiento de los hijos, los hijos se posicionan al final del eje del padre
+           align-items: center,  sobreescribe o independiza el comportamiento de los hijos, los hijos se posicionan al inicio del eje del padre
+           align-items: baseline,  sobreescribe o independiza el comportamiento de los hijos, los hijos se se posicionan al centro del eje referente del padre
+           align-items: stretch,  sobreescribe o independiza el comportamiento de los hijos,los hijos se posicionan de manera uniforme entre ellos y con el margen del padre
+            
+        */
+    </style>
+</head>
+
+<body>
+    <section>
+        <article class="caja1">Caja 1</article>
+        <article class="caja2">Caja 2</article>
+        <article class="caja3">Caja 3</article>
+    </section>
+
+</body>
+
+</html>
