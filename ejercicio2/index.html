@@ -9,13 +9,14 @@
     <style>
         section {
             width: 500px;
-            height: 500px;
+            height: 200px;
             border: 1px solid #000;
             margin: 0 auto;
             display: flex;
+            flex-direction: row;
         }
         /*Propiedad 
-          diplay: flex;, los hijos heredan la altura, en este caso, del padre
+           flex-direction, los hijos se veran como rows
         */
         
         .caja1 {
@@ -25,14 +26,18 @@
         .caja2 {
             background-color: green;
         }
+        
+        .caja3 {
+            background-color: pink;
+        }
     </style>
 </head>
 
 <body>
     <section>
         <article class="caja1">Caja 1</article>
-
         <article class="caja2">Caja 2</article>
+        <article class="caja3">Caja 3</article>
     </section>
 
 </body>
